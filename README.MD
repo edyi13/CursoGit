@@ -87,3 +87,13 @@ namespace MyApplication
 # Citas
 Esto es un texto referente a un cita 
 > Estos es una cita
+
+# Lineas Divisoras
+Esto es un texto que sera dividido por guiones
+
+---
+Esto es otro texto dividido por asteriscos
+
+***
+Esto es otro texto dividido por underscore
+___
