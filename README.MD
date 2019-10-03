@@ -77,3 +77,9 @@ namespace MyApplication
     }
 }
 ```
+
+# Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Edson  | Martinez | 702050452 |
+| Gerson | Martinez | 702060896 |
