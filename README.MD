@@ -40,4 +40,40 @@ Underline 2
 - [Esto es un link al Index](index.html)
 
 # Imagenes
-![Logo github](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Logo github](https://octicons.github.com/img/og/mark-github.png)
+
+# Code Snippets
+
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+
+```C#
+using System.IO.Compression;
+
+#pragma warning disable 414, 3021
+
+namespace MyApplication
+{
+    [Obsolete("...")]
+    class Program : IInterface
+    {
+        public static List<int> JustDoIt(int count)
+        {
+            Console.WriteLine($"Hello {Name}!");
+            return new List<int>(new int[] { 1, 2, 3 })
+        }
+    }
+}
+```
